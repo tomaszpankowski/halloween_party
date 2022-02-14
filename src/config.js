@@ -2,7 +2,7 @@ import {Redirect} from "react-router-dom";
 import Comingsoon from "./views/comingsoon";
 import Contact from "./views/contact";
 import Error from "./views/error";
-import Faq from "./view/faq";
+import Faq from "./views/faq";
 import Gallery from "./views/gallery";
 import Home from "./views/home";
 import Info from "./views/info";
