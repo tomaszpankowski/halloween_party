@@ -88,7 +88,7 @@ class RegisterForm extends Component{
             <Container fluid className={"contact-s2 align-items-center p-0 py-5 d-flex minh-100vh "+this.props.classExt}>
                 <Row className="mx-auto text-start w-100 pt-5">
                     <Col xs={11} md={6} lg={5} className="mx-auto p-0 d-flex align-items-center">
-                        <Form className="text-start w-100 border border-secondary p-4 rounded bg-light shadow text-secondary opacity-9 fw-bold"
+                        <Form className="text-start w-100 border border-secondary p-4 rounded bg-dark shadow text-secondary opacity-9 fw-bold"
                             autoComplete="off"
                             method="POST">
                             <div className="border-bottom border-secondary mb-4">
@@ -100,7 +100,7 @@ class RegisterForm extends Component{
                                 <Form.Label>First Name</Form.Label>
                                  <Form.Control type="text" 
                                     placeholder="Enter first name" 
-                                    className="rounded-pill border-secondary text-secondary"
+                                    className="rounded-pill border-secondary text-white bg-dark"
                                     maxLength="50"
                                     name="firstName"
                                     onChange={this.updateUserData.bind(this)} 
@@ -111,7 +111,7 @@ class RegisterForm extends Component{
                                 <Form.Label>Last Name</Form.Label>
                                  <Form.Control type="text" 
                                     placeholder="Enter last name" 
-                                    className="rounded-pill border-secondary text-secondary"
+                                    className="rounded-pill border-secondary text-white bg-dark"
                                     maxLength="50"
                                     name="lastName"
                                     onChange={this.updateUserData.bind(this)} 
@@ -122,7 +122,7 @@ class RegisterForm extends Component{
                                 <Form.Label>Email</Form.Label>
                                  <Form.Control type="text" 
                                     placeholder="Enter email" 
-                                    className="rounded-pill border-secondary text-secondary"
+                                    className="rounded-pill border-secondary text-white bg-dark"
                                     maxLength="50"
                                     name="emailAddr"
                                     onChange={this.updateUserData.bind(this)} 
@@ -133,7 +133,7 @@ class RegisterForm extends Component{
                                 <Form.Label>Login</Form.Label>
                                  <Form.Control type="text" 
                                     placeholder="Enter login" 
-                                    className="rounded-pill border-secondary text-secondary"
+                                    className="rounded-pill border-secondary text-white bg-dark"
                                     maxLength="50"
                                     name="userLogin"
                                     onChange={this.updateUserData.bind(this)} 
@@ -144,7 +144,7 @@ class RegisterForm extends Component{
                                 <Form.Label>Password</Form.Label>
                                 <Form.Control type="password" 
                                     placeholder="Enter password" 
-                                    className="rounded-pill border-secondary text-secondary"
+                                    className="rounded-pill border-secondary text-white bg-dark"
                                     maxLength="40"
                                     name="userPass"
                                     onChange={this.updateUserData.bind(this)} 
@@ -155,7 +155,7 @@ class RegisterForm extends Component{
                                 <Form.Label>Password (repeat)</Form.Label>
                                 <Form.Control type="password" 
                                     placeholder="Repeat password" 
-                                    className="rounded-pill border-secondary text-secondary"
+                                    className="rounded-pill border-secondary text-white bg-dark"
                                     maxLength="40"
                                     name="userPassConfirm"
                                     onChange={this.updateUserData.bind(this)} 
