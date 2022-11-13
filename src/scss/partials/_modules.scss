@@ -2,10 +2,6 @@
 
 .faq{
     &-s2,&-s4{
-        *{
-            color: #fff !important;
-            text-shadow: $text__shadow;
-        }
         background-color: #999!important;
         background-blend-mode: multiply!important;
     }
@@ -16,7 +12,10 @@
         text-shadow: $text__shadow;
     }
 }
-
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Creepster";
+    letter-spacing: 1px;
+}
 nav{
     z-index: 10;
 }

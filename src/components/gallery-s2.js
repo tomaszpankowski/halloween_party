@@ -14,7 +14,7 @@ class GalleryS2 extends Component{
                             <h5 className="text-white opacity-7">
                                 Lorem ipsum
                             </h5>
-                            <h2 className="dispaly-6 fw-bold text-white text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-warning text-shadow">
                                 Dolor sit amet         
                             </h2>
                             <p className="text-white">
