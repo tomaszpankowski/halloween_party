@@ -15,7 +15,7 @@ class FaqS1 extends Component{
                         <h5 className="text-white opacity-7">
                             Sed ut perspiciatis
                         </h5>
-                        <h2 className="dispaly-6 fw-bold text-white">
+                        <h2 className="dispaly-6 fw-bold text-warning">
                             Unde omnis iste
                         </h2>
                         <p className="text-white">
